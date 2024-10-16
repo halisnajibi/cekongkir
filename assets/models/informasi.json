@@ -1,0 +1,18 @@
+ {
+    "origin_details":{
+         "city_id":"501",
+         "province_id":"5",
+         "province":"DI Yogyakarta",
+         "type":"Kota",
+         "city_name":"Yogyakarta",
+         "postal_code":"55000"
+      },
+      "destination_details":{
+         "city_id":"114",
+         "province_id":"1",
+         "province":"Bali",
+         "type":"Kota",
+         "city_name":"Denpasar",
+         "postal_code":"80000"
+      }
+ }

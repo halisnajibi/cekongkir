@@ -175,8 +175,31 @@ class HomeView extends GetView<HomeController> {
                     controller.cekOngkir();
                   }
                 },
-                child: Text(
-                    controller.isLoading.isFalse ? "CEK ONGKIR" : 'LOADING..')))
+                child: Text(controller.isLoading.isFalse
+                    ? "CEK ONGKIR"
+                    : 'LOADING..'))),
+            // Obx(() => Column(
+            //       children: [
+            //         controller.result.isEmpty
+            //             ? Text('Informasi belum ada')
+            //             : Column(
+            //                 children: controller.result
+            //                     .map((e) => ListTile(
+            //                           title:
+            //                               Text("${e.service!.toUpperCase()}"),
+            //                           subtitle: Column(
+            //                             crossAxisAlignment:
+            //                                 CrossAxisAlignment.start,
+            //                             children: [
+            //                               Text("${e.cost![0].etd}"),
+            //                               Text("Rp ${e.cost![0].value}"),
+            //                             ],
+            //                           ),
+            //                         ))
+            //                     .toList(),
+            //               )
+            //       ],
+            //     ))
           ],
         ));
   }
